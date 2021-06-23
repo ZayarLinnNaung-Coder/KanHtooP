@@ -1,0 +1,28 @@
+Functionality
+--------------
+Check Lottery
+	=> Using input
+	=> Show complete lottery list
+	=> Automatically (Using admin access)	//Not Now
+
+User
+	=> Login
+	=> SignUp
+
+Admin
+	=> Register Customers
+		--Name
+		--Phone Num
+		--Address
+		--Alphabat and Num
+		--Amount per Ticket
+	=> Customers List (edit, delete)
+--------------------------------------------------------------------
+
+Nav Links
+	index (Using_Input,Boxes to show complete lottery list)
+	AboutUs
+	Login
+	SignUp
+	if(admin) Customer => Register, Customers
+	

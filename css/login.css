@@ -1,0 +1,154 @@
+
+html,body{
+    background-color: #F0F1F3;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    box-shadow: 0 0 7px 1px #333;
+    border-radius: 15px;
+}
+.form .left{
+    /*background-color: #222277;*/
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.form .right{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .right .frm-wrapper{
+    display: flex;
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form .right .frm-wrapper .three div{
+    display: inline-block;
+    width: 100%;
+    /*background-color: red;*/
+    margin-bottom: 5px;
+    height: 35px;
+    border: 1px solid #B8BBBF;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.form .right .frm-wrapper .three .addition{
+    border: 0;
+    text-align: right;
+}
+.form .right .frm-wrapper .three .addition a{
+    text-decoration: none;
+    color: red;
+}
+.form .right .frm-wrapper .three .btn{
+    border: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.form .right .frm-wrapper .three .btn .ok{
+    box-shadow: 0 0 5px 1px #333;
+    background-color: #222277;
+    color: #fafafa;
+    width: 45%;
+    border-radius: 5px;
+}
+.form .right .frm-wrapper .three .btn .cancel{
+    box-shadow: 0 0 5px 1px #333;
+    color: #333;
+    width: 45%;
+    border-radius: 5px;
+}
+.form .right .frm-wrapper .three div i{
+    width: 8%;
+    height: 100%;
+}
+.form .right .frm-wrapper .three div input{
+    background-color: transparent;
+    border: 0px;
+    width: 90%;
+    height: 100%;
+}
+.form .right .frm-wrapper .three div input:focus{
+    outline: 0;
+}
+@media screen and (max-width: 1024px){
+    .form{
+        width: 80%;
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 780px){
+    .form{
+        width: 90%;
+        height: 50vh;
+    }header{
+         padding: 10px 0px;
+     }
+    .nav .show-icon{
+        display: block;
+    }
+    .nav .links{
+        margin-top: 20px;
+        border-top: 1px solid black;
+        width: 100%;
+        display: none;
+    }
+    .nav .links a{
+        width: 100%;
+        padding: 3px 0;
+        margin-top: 20px;
+    }
+    .nav .links a.active{
+        border: 0;
+    }
+    .nav .links a:hover{
+        border: 0;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .container{
+        background-color: white;
+    }
+    .form{
+        width: 100%;
+        height: 80vh;
+        box-shadow: 0 0 0px 0px #333;
+    }
+    .form .left{
+        display: none;
+    }
+    .form .right{
+        width: 100%;
+        border-radius: 0;
+    }
+    .form .right .frm-wrapper .three div{
+        height: 40px;
+    }
+    .form .right .frm-wrapper .three .btn{
+        margin-top: 80px;
+    }
+}
